@@ -1,3 +1,32 @@
 body {
     font-family: "Lexend", sans-serif;
+    font-size: 25px;
+    margin: 0;
+    background-image: url("assets/mainbg.png");
+}
+
+.titletop {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+    background-image: url("assets/metalbg.png");
+    background-size: cover;
+    border-color: transparent;
+}
+
+.bigtitle {
+    margin: 4px;
+    font-size: 4rem;
+}
+.secondtitle {
+    font-size: 2rem;
+}
+
+.mainbody {
+    margin: 30px;
+    background-color: darkslategrey;
+    height: 60vh;
+    border-radius: 10px;
 }
