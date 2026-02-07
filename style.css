@@ -29,4 +29,13 @@ body {
     background-color: darkslategrey;
     height: 60vh;
     border-radius: 10px;
+    padding: 9px 9px;
+    box-sizing: border-box;
+}
+.mainbody > *:first-child {
+    margin-top: 0;
+}
+.evimage {
+    float: left;
+    margin-right: 15px;
 }
